@@ -3,7 +3,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "strictPropertyInitialization": false,
-    "baseUrl": "./",
+    "baseUrl": "./my-app/",
     "outDir": "docs",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
