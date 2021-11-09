@@ -1,2 +1,20 @@
-<app-header [title]="title" [headertext]="textHeader"></app-header>
+<!-- <app-header [title]="title" [headertext]="textHeader"></app-header> -->
 
+
+<div class="heading">
+    <div class="container">
+        <div class="box">
+            <h2>{{title}}</h2>
+            <p>{{ titleText }}</p>
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="container">
+        <ul>
+            <li *ngFor="let list of lists">
+                {{ list }}
+            </li>
+        </ul>
+    </div>
+</div>

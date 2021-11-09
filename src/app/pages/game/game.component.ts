@@ -7,8 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GameComponent implements OnInit {
   title: string = 'game';
-  textHeader: string = 'משחק';
+  titleText: string = 'משחק';
   constructor() { }
+
+  lists = ['1', '2', '3', '4', '5'];
 
   ngOnInit(): void {
   }
