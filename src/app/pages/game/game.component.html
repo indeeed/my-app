@@ -11,10 +11,18 @@
 </div>
 <div class="main">
     <div class="container">
-        <ul>
-            <li *ngFor="let list of lists">
-                {{ list }}
-            </li>
-        </ul>
+        <div class="loop">
+            <ul>
+                <li *ngFor="let listTo of listsTo">
+                    {{ listTo }}
+                </li>
+            </ul>
+        </div>
+        <div class="learning">
+            <h3>תכניס תווים</h3>
+            <input type="text" id="input">
+            <button type="button" onkeyup="writethis()">אישור</button>
+            <div class="otput"></div>
+        </div>
     </div>
 </div>
